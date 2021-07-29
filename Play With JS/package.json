@@ -1,0 +1,22 @@
+{
+  "name": "JavascriptEveryday",
+  "version": "1.0.0",
+  "description": "Everyday javascript learning.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helalhafiz/Javascript.git"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "Helal Hafiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helalhafiz/Javascript/issues"
+  },
+  "homepage": "https://github.com/helalhafiz/Javascript#readme"
+}
