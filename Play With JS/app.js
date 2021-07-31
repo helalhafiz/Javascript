@@ -1,13 +1,22 @@
-const listElements = document.querySelectorAll('.cd-features-list li');
+const listElements1 = document.querySelectorAll('.features .cd-features-list li');
+const listElements = document.querySelectorAll('.product .cd-features-list li');
 const heightList = [];
 listElements.forEach((element) => {
 	heightList.push(element.offsetHeight);
 });
 const maxHeight = Math.max(...heightList);
-listElements.forEach((element) => {
-	element.style.minHeight = maxHeight;
+let liCount = 0;
+listElements1.forEach((element) => {
+	element.style.lineHeight = '0px';
+	element.style.minHeight = heightList[liCount];
+	liCount++;
 });
+let valueLICount = 0;
+listElements.forEach((element) => {
 
+	element.style.minHeight = heightList[valueLICount];
+	valueLICount++;
+});
 
 
 //for hrisov
