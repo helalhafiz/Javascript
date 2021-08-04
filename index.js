@@ -35,3 +35,12 @@ document.querySelector('.nv-nav-search').addEventListener('click', function(e) {
 		
 	}
 });
+
+
+
+
+//animation
+const arButton = document.getElementById('ar-button');
+arButton.addEventListener('click',function(e){
+	console.log(e);
+});
