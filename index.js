@@ -44,3 +44,14 @@ const arButton = document.getElementById('ar-button');
 arButton.addEventListener('click',function(e){
 	console.log(e);
 });
+
+
+
+
+//hide chat
+const contactBtn = document.querySelector('#scoutopen');
+const hideChatBtn = document.querySelector('.chat-content');
+
+contactBtn.addEventListener('click',function(){
+	hideChatBtn.click();
+});
